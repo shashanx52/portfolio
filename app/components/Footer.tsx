@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaLaptopCode } from 'react-icons/fa';
 
 export function Footer() {
   return (
