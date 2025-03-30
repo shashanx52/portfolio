@@ -69,7 +69,7 @@ const rotatingSkills = [
 
 const Skills: React.FC = () => {
   const [activeTab, setActiveTab] = useState(Object.keys(skillCategories)[0]);
-  const [windowWidth, setWindowWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 0);
+
 
   useEffect(() => {
     const handleResize = () => setWindowWidth(window.innerWidth);
